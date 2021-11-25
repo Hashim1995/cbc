@@ -1,0 +1,43 @@
+.wrap{
+    padding: 5em 0;
+    .item{
+        padding: 0.5em;
+        display: flex;
+        justify-content: center;
+        transition: var(--transition4);
+        border-radius: var(--radius6);
+        &:hover{
+            transition: var(--transition4);
+            background-color: var(--red);
+        }
+        &:hover .left svg{
+            transition: var(--transition4);
+            fill: var(--white);
+        }
+        &:hover .right h1, &:hover .right p{
+            transition: var(--transition4);
+            color: var(--white);
+        }
+        .left{
+            svg{
+                transition: var(--transition4);
+                fill: var(--red);
+                height: 2em;
+                width: 2em;
+            }
+        }
+        .right{
+            padding-left: 1em;
+
+            h1{
+                transition: var(--transition4);
+                color: var(--black);
+                font-weight: bold;
+            }
+            p{
+                transition: var(--transition4);
+                color: var(--gray);
+            }
+        }
+    }
+}

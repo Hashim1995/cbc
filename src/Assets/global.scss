@@ -18,9 +18,9 @@ body {
   --radius18: 18px;
   --radiusCircle: 50%;
   --white: white;
-  --gray: #999;
-  --red: #d10504;
-  --black: #161616;
+  --gray: #7c7c7c;
+  --red: #a11f1f;
+  --black: #252525;
   --transition6: 0.6s ease-in-out all;
   --transition4: 0.4s ease-in-out all;
   --transition2: 0.2s ease-in-out all;
@@ -46,4 +46,47 @@ body {
   .container {
     width: 1170px;
   }
+}
+.ant-carousel .slick-prev {
+  z-index: 99999 !important;
+  left: 3vw !important;
+  display: block;
+  background-color: var(--black) !important;
+  border-radius: var(--radiusCircle);
+  color: var(--white) !important;
+  height: 43px !important;
+  width: 43px !important;
+}
+
+.ant-carousel .slick-next {
+  z-index: 99999 !important;
+  right: 3vw !important;
+  display: block;
+  background-color: var(--black) !important;
+  border-radius: var(--radiusCircle);
+  color: var(--white) !important;
+  height: 43px !important;
+  width: 43px !important;
+}
+
+.ant-carousel .slick-prev:before {
+  content: "<";
+  position: absolute;
+  top: 53%;
+  left: 33%;
+  font-size: 20px;
+  color: var(--white) !important;
+}
+.ant-carousel .slick-next::before {
+  content: ">";
+  position: absolute;
+  top: 53%;
+  left: 30%;
+  font-size: 20px;
+}
+.slick-dots li button{
+  padding: 5px !important;
+}
+.slick-active button{
+  background-color: var(--black) !important;
 }

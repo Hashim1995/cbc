@@ -1,5 +1,9 @@
+.main{
+    background: var(--light-gray);
+}
 .wrap{
     padding: 5em 0;
+    
     .item{
         padding: 0.5em;
         display: flex;

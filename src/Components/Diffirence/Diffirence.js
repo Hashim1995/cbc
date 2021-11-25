@@ -7,8 +7,8 @@ import SettingsSuggestOutlinedIcon from "@mui/icons-material/SettingsSuggestOutl
 import PriceCheckOutlinedIcon from "@mui/icons-material/PriceCheckOutlined";
 const Diffirence = () => {
   return (
-    <div className="container">
-      <div className={Style.wrap}>
+    <div className={`${Style.main} `}>
+      <div className={`${Style.wrap} container`}>
         <Row>
           <Col xs={24} md={12} xl={8}>
             <div className={Style.item}>

@@ -1,0 +1,80 @@
+.main{
+    background: var(--black);
+    .wrap{
+        padding: 2em 0 5em 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .title{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 4vw;
+            h1{
+                color: var(--white);
+                font-size: 3em;
+                font-weight: bold;
+                text-align: center;
+            }
+            h1 b{
+                color: var(--red);
+                
+                font-weight: bold;
+            }
+            p{
+                text-align: center;
+                color: var(--light-gray);
+            }
+        }
+        .item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 1em;
+            padding: 1.5em;
+            background: var(--red);
+            border-radius: var(--radius6);
+            transition: var(--transition2);
+            &:hover{
+                transition: var(--transition2);
+                background: var(--white);
+            }
+            &:hover a{
+                transition: var(--transition2);
+                color: var(--red);
+            }
+            &:hover p{
+                transition: var(--transition2);
+                color: var(--black);
+            }
+            a{
+                color: var(--white);
+                font-size: 2em;
+                font-weight: bold;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                color: var(--white);
+                padding: 1em;
+            }
+            button{
+                background: var(--white);
+                color: var(--red);
+                border: none;
+                border-radius: var(--radius6);
+                
+                font-size: 1em;
+                font-weight: bold;
+                cursor: pointer;
+                transition: var(--transition2);
+                &:hover{
+                    color: var(--white);
+                    background: var(--red);
+                    transition: var(--transition2);
+                }
+            }
+        }
+    }
+}

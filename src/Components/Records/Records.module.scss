@@ -10,6 +10,7 @@
             align-items: center;
             flex-direction: column;
             padding: 0 4vw;
+            margin-bottom: 2em;
             h1{
                 color: var(--white);
                 font-size: 3em;
@@ -34,19 +35,24 @@
             margin: 1em;
             padding: 1.5em;
             background: var(--red);
-            border-radius: var(--radius6);
-            transition: var(--transition2);
+            border-radius: var(--radius18);
+            transition: var(--transition6);
             &:hover{
-                transition: var(--transition2);
+                transition: var(--transition4);
                 background: var(--white);
             }
             &:hover a{
-                transition: var(--transition2);
+                transition: var(--transition4);
                 color: var(--red);
             }
             &:hover p{
-                transition: var(--transition2);
+                transition: var(--transition4);
                 color: var(--black);
+            }
+            &:hover button{
+                color: var(--white);
+                background: var(--red);
+                transition: var(--transition4);
             }
             a{
                 color: var(--white);
@@ -65,15 +71,12 @@
                 border: none;
                 border-radius: var(--radius6);
                 
-                font-size: 1em;
+                font-size: 1.1em;
+                padding: 0.5em;
                 font-weight: bold;
                 cursor: pointer;
-                transition: var(--transition2);
-                &:hover{
-                    color: var(--white);
-                    background: var(--red);
-                    transition: var(--transition2);
-                }
+                transition: var(--transition4);
+                
             }
         }
     }

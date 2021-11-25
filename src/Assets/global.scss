@@ -53,7 +53,7 @@ body {
   z-index: 99999 !important;
   left: 3vw !important;
   display: block;
-  background-color: var(--black) !important;
+  background-color: var(--red) !important;
   border-radius: var(--radiusCircle);
   color: var(--white) !important;
   height: 43px !important;
@@ -64,7 +64,7 @@ body {
   z-index: 99999 !important;
   right: 3vw !important;
   display: block;
-  background-color: var(--black) !important;
+  background-color: var(--red) !important;
   border-radius: var(--radiusCircle);
   color: var(--white) !important;
   height: 43px !important;
@@ -90,5 +90,5 @@ body {
   padding: 5px !important;
 }
 .slick-active button{
-  background-color: var(--black) !important;
+  background-color: var(--red) !important;
 }

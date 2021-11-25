@@ -5,11 +5,13 @@
     padding: 5em 0;
     
     .item{
-        padding: 0.5em;
+        padding: 1.5em;
+        margin: 1em;
         display: flex;
         justify-content: center;
-        transition: var(--transition4);
-        border-radius: var(--radius6);
+        transition: var(--transition6);
+        border-radius: var(--radius18);
+        background-color: var(--black);
         &:hover{
             transition: var(--transition4);
             background-color: var(--red);
@@ -35,12 +37,12 @@
 
             h1{
                 transition: var(--transition4);
-                color: var(--black);
+                color: var(--white);
                 font-weight: bold;
             }
             p{
                 transition: var(--transition4);
-                color: var(--gray);
+                color: var(--white);
             }
         }
     }

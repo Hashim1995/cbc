@@ -1,0 +1,27 @@
+.nav{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+
+    }
+    div{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-grow: 1;
+        a{
+            color: var(--black);
+            font-size: 1em;
+            font-weight: bold;
+            transition: var(--transition2);
+            &:hover{
+                transition: var(--transition2);
+                color: var(--red);
+            }
+        }
+    }
+}

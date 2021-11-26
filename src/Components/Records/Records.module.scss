@@ -28,6 +28,7 @@
             }
         }
         .item{
+            position: relative;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -54,6 +55,10 @@
                 background: var(--red);
                 transition: var(--transition4);
             }
+            &:hover svg{
+                transition: var(--transition4);
+                fill: var(--red);
+            }
             a{
                 color: var(--white);
                 font-size: 2em;
@@ -77,6 +82,17 @@
                 cursor: pointer;
                 transition: var(--transition4);
                 
+            }
+            svg{
+                transition: var(--transition4);
+                fill: var(--white);
+                padding-right: 0.5em;
+                height: 3em;
+                width: 3em;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                opacity: 0.3;
             }
         }
     }

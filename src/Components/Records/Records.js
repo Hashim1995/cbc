@@ -2,6 +2,9 @@ import Style from "./Records.module.scss";
 import Row from "antd/lib/row";
 import Col from "antd/lib/col";
 import { Link } from "react-router-dom";
+import ManageSearchRoundedIcon from "@mui/icons-material/ManageSearchRounded";
+import GroupsOutlinedIcon from "@mui/icons-material/GroupsOutlined";
+import CardMembershipOutlinedIcon from "@mui/icons-material/CardMembershipOutlined";
 const Records = () => {
   return (
     <div className={Style.main}>
@@ -20,7 +23,7 @@ const Records = () => {
           <Row>
             <Col xs={24} md={12} xl={8}>
               <div className={Style.item}>
-                <Link to="/">TOP RATED</Link>
+                <Link to="/">OUR STORY</Link>
                 <p>
                   On the other hand, we denounce with righteous indignation and
                   dislike men who are so beguiled and demoralized by the charms
@@ -28,11 +31,12 @@ const Records = () => {
                   of pleasure of the moment, so blinded by desire
                 </p>
                 <button>Read More</button>
+                <ManageSearchRoundedIcon />
               </div>
             </Col>
             <Col xs={24} md={12} xl={8}>
               <div className={Style.item}>
-                <Link to="/">LOW COST</Link>
+                <Link to="/">ABOUT US</Link>
                 <p>
                   On the other hand, we denounce with righteous indignation and
                   dislike men who are so beguiled and demoralized by the charms
@@ -40,6 +44,7 @@ const Records = () => {
                   of pleasure of the moment, so blinded by desire
                 </p>
                 <button>Read More</button>
+                <GroupsOutlinedIcon />
               </div>
             </Col>
             <Col
@@ -48,7 +53,7 @@ const Records = () => {
               xl={{ span: 8, offset: 0 }}
             >
               <div className={Style.item}>
-                <Link to="/">QUALITY</Link>
+                <Link to="/">OUR CERTIFACATE</Link>
                 <p>
                   On the other hand, we denounce with righteous indignation and
                   dislike men who are so beguiled and demoralized by the charms
@@ -56,6 +61,7 @@ const Records = () => {
                   of pleasure of the moment, so blinded by desire
                 </p>
                 <button>Read More</button>
+                <CardMembershipOutlinedIcon />
               </div>
             </Col>
           </Row>

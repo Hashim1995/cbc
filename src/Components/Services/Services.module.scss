@@ -1,0 +1,52 @@
+.wrap{
+    padding: 5em 0;
+    h1{
+        text-align: center;
+        color: var(--black);
+        font-size: 3em;
+    }
+    .item{
+        padding: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: var(--red);
+        border-radius: var(--radius18);
+        margin: 0.5em;
+        transition: var(--transition4);
+        &:hover{
+            transition: var(--transition4);
+            background-color: var(--black);
+        }
+        &:hover svg{
+            animation-name: bounce-7;
+                animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+        }
+        svg{
+            width: 2em;
+            height: 2em;
+            color: var(--white);
+          
+            
+        }
+        h2{
+            font-size: 1.5em;
+            color: var(--white);
+            padding-top: 1em;
+        }
+
+    }
+}
+
+@keyframes bounce-7 {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-20px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}

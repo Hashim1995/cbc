@@ -1,11 +1,14 @@
 import "./Assets/global.scss";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "antd/dist/antd.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
-import Service from "./Components/Services/Service/Service";
+import Service from "./Pages/Service";
+import Project from "./Pages/Project";
 
 function App() {
   return (
@@ -14,9 +17,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/:serviceSlug" element={<Service />} />
+        <Route path="/service/:serviceSlug" element={<Service />} />
+        <Route path="/project/:projectSlug" element={<Project />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

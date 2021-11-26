@@ -1,9 +1,38 @@
-.wrap{
+.main{
     padding: 5em 0;
+    background-image: url("../../Assets//Img/services.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        inset: 0 0 0 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.7;
+    }
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     h1{
+        z-index: 1;
         text-align: center;
         color: var(--black);
         font-size: 3em;
+        font-weight: bold;
+        background-color: var(--white);
+        display: inline-block;
+        padding: 0.5em;
+        border-radius: var(--radius18);
+        b{
+            color: var(--red);
+        }
     }
     .item{
         padding: 2em;

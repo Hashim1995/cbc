@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Style from "../Assets/Project.module.scss";
 import { useParams } from "react-router-dom";
 import { Image } from "antd";
@@ -7,10 +6,8 @@ import { Row, Col } from "antd";
 import { Descriptions, Badge } from "antd";
 const Project = () => {
   const { projectSlug } = useParams();
-  const [visible, setVisible] = useState(false);
 
   const {
-    id,
     imgList,
     title,
     desciption,
@@ -35,7 +32,7 @@ const Project = () => {
             />
             <Row>
               {imgList.map((img, i) => (
-                <Col xs={12} md={8}>
+                <Col key={i} xs={12} md={8}>
                   <Image
                     width={"100%"}
                     key={i}

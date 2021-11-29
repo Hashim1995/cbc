@@ -59,6 +59,7 @@ const Footer = () => {
             className={Style.qscepters}
             href="https://www.qscepter.com/"
             target="_blank"
+            rel="noreferrer"
           >
             © Developed by Qscepter
           </a>

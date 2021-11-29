@@ -1,0 +1,55 @@
+.main {
+  background-color: var(--black);
+  padding: 5em 0;
+  .wrap {
+    .nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      list-style: none;
+
+      li {
+        a {
+          color: var(--white);
+        }
+      }
+    }
+    .social {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      padding-top: 3em;
+      svg{
+          height: 1.5em;
+          width: 1.5em;
+          fill: var(--white);
+          margin: 0 1em;
+      }
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2em;
+        h5{
+            color: var(--gray);
+            font-size: 1.1em;
+        }
+        a{
+            color: var(--gray);
+            text-decoration: none;
+            font-size: 1em;
+        }
+    }
+    .qscepters{
+       display: block;
+       text-align: center;
+        margin: 0 auto;
+        color: white;
+    }
+  }
+}

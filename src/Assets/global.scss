@@ -75,16 +75,16 @@ body {
 .ant-carousel .slick-prev:before {
   content: "<";
   position: absolute;
-  top: 53%;
-  left: 33%;
+  top: 31%;
+  left: 26%;
   font-size: 20px;
   color: var(--white) !important;
 }
 .ant-carousel .slick-next::before {
   content: ">";
   position: absolute;
-  top: 53%;
-  left: 30%;
+  top: 30%;
+  left: 26%;
   font-size: 20px;
 }
 .slick-dots li button{

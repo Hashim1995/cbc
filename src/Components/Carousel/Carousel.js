@@ -20,7 +20,7 @@ const Carousel = () => {
     <div>
       <CarouselAnt
         effect="fade"
-        dots={true}
+        dots={false}
         autoplay={true}
         arrows
         {...settings}

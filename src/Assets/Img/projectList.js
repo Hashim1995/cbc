@@ -31,6 +31,7 @@ const projectList = [
     location: "Baku",
     budget: "100$",
     duration: "1 months",
+    status: "Completed",
   },
   {
     id: 2,
@@ -43,6 +44,8 @@ const projectList = [
     location: "Baku",
     budget: "200$",
     duration: "2 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 3,
@@ -53,8 +56,10 @@ const projectList = [
     previewImg: p3,
     client: "Client 3",
     location: "Baku",
-    budget: "300$",
+    budget: "1214$",
     duration: "3 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 4,
@@ -67,6 +72,8 @@ const projectList = [
     location: "Baku",
     budget: "400$",
     duration: "4 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 5,
@@ -79,6 +86,8 @@ const projectList = [
     location: "Baku",
     budget: "400$",
     duration: "5 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 6,
@@ -91,6 +100,8 @@ const projectList = [
     location: "Baku",
     budget: "600$",
     duration: "6 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 7,
@@ -103,6 +114,8 @@ const projectList = [
     location: "Baku",
     budget: "700$",
     duration: "7 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 8,
@@ -115,6 +128,8 @@ const projectList = [
     location: "Baku",
     budget: "800$",
     duration: "8 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 8,
@@ -127,6 +142,8 @@ const projectList = [
     location: "Baku",
     budget: "800$",
     duration: "8 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 9,
@@ -139,6 +156,8 @@ const projectList = [
     location: "Baku",
     budget: "900$",
     duration: "9 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 10,
@@ -151,6 +170,8 @@ const projectList = [
     location: "Baku",
     budget: "1000$",
     duration: "10 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 11,
@@ -163,6 +184,8 @@ const projectList = [
     location: "Baku",
     budget: "1100$",
     duration: "11 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 12,
@@ -175,6 +198,8 @@ const projectList = [
     location: "Baku",
     budget: "1200$",
     duration: "12 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 13,
@@ -187,6 +212,8 @@ const projectList = [
     location: "Baku",
     budget: "1300$",
     duration: "13 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 14,
@@ -199,6 +226,8 @@ const projectList = [
     location: "Baku",
     budget: "1400$",
     duration: "14 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 15,
@@ -211,6 +240,8 @@ const projectList = [
     location: "Baku",
     budget: "1500$",
     duration: "15 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 16,
@@ -223,6 +254,8 @@ const projectList = [
     location: "Baku",
     budget: "1600$",
     duration: "16 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 17,
@@ -235,6 +268,8 @@ const projectList = [
     location: "Baku",
     budget: "1700$",
     duration: "17 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 18,
@@ -247,6 +282,8 @@ const projectList = [
     location: "Baku",
     budget: "1800$",
     duration: "18 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 19,
@@ -259,6 +296,8 @@ const projectList = [
     location: "Baku",
     budget: "1900$",
     duration: "19 months",
+    status: "Completed",
+    sector: "Construction",
   },
   {
     id: 20,
@@ -271,6 +310,8 @@ const projectList = [
     location: "Baku",
     budget: "2000$",
     duration: "20 months",
+    status: "Completed",
+    sector: "Construction",
   },
 ];
 

@@ -11,6 +11,8 @@ import { Route, Routes } from "react-router-dom";
 import Service from "./Pages/Service";
 import Project from "./Pages/Project";
 import { Partner } from "./Pages/Partner";
+import ServicesPage from "./Pages/ServicesPage";
+import ProjectsPage from "./Pages/ProjectsPage";
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/Story" element={<Story />} />
         <Route path="/Partner" element={<Partner />} />
+        <Route path="/ServicesPage" element={<ServicesPage />} />
+        <Route path="/ProjectsPage" element={<ProjectsPage />} />
         <Route path="/service/:serviceSlug" element={<Service />} />
         <Route path="/project/:projectSlug" element={<Project />} />
       </Routes>

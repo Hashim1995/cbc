@@ -1,0 +1,23 @@
+.wrap{
+    padding: 2em 0;
+    img{
+        width: 100%;
+    }
+    h1{
+
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    svg{
+        margin-left: 1em;
+        height: 1.5em;
+        width: 1.5em;
+    }
+    p{
+        text-align: center;
+        padding: 1em;
+
+    }
+}

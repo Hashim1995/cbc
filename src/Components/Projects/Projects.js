@@ -34,6 +34,13 @@ const Projects = () => {
           slidesToScroll: 1,
         },
       },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
     ],
   };
   return (
@@ -42,10 +49,7 @@ const Projects = () => {
         OUR <b>PROJECTS</b>
       </h1>
       <Row>
-        <Col xs={24} xl={24} xxl={10}>
-          <img src={projecImg} className={Style.projImg} alt="" />
-        </Col>
-        <Col xl={24} xxl={14}>
+        <Col xl={24} xxl={24}>
           <Slider {...settings}>
             {projectList.map((project, index) => (
               <Link key={index} to={`/project/${project.title}`}>

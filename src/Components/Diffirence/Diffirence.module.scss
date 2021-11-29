@@ -47,3 +47,27 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    .wrap{
+        padding: 2em 0;
+        .item{
+            padding: 1em;
+            margin: 0.5em;
+            .left{
+                svg{
+                    height: 1.5em;
+                    width: 1.5em;
+                }
+            }
+            .right{
+                h1{
+                    font-size: 1.3em;
+                }
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}

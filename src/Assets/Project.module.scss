@@ -4,6 +4,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    .preImg{
+        height: 40vh !important;
+        object-fit: cover !important;
+    }
     .imgWrap{
         display: flex;
         align-items: center;
@@ -19,4 +23,18 @@
         }
         
     }
+}
+
+@media screen and (max-width: 768px) {
+  .preImg{
+      height: 30vh !important;
+      object-fit: cover !important;
+  }
+  .imgWrap{
+    img{
+        object-fit: contain !important;
+      
+    }
+    
+}
 }

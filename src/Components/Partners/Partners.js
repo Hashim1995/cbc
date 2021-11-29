@@ -30,7 +30,7 @@ const Partners = () => {
         loop={true}
         autoplay={{ delay: 3000 }}
         spaceBetween={50}
-        slidesPerView={screenIsXS ? 2 : 4}
+        slidesPerView={screenIsXS ? 1 : 4}
       >
         <SwiperSlide>
           <div className={Style.PartnersImgWrap}>

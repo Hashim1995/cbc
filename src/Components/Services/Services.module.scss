@@ -1,81 +1,122 @@
-.main{
-    padding: 5em 0;
-    background-image: url("../../Assets//Img/services.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    &::before{
-        content: "";
-        position: absolute;
-        inset: 0 0 0 0;
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        opacity: 0.7;
-    }
+.main {
+  padding: 5em 0;
+  background-image: url("../../Assets//Img/services.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+  }
 }
-.wrap{
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    z-index: 1;
+    text-align: center;
+    color: var(--black);
+    font-size: 3em;
+    font-weight: bold;
+    background-color: var(--white);
+    display: inline-block;
+    padding: 0.5em;
+    border-radius: var(--radius18);
+    b {
+      color: var(--red);
+    }
+  }
+  .item {
+    padding: 1em;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    h1{
-        z-index: 1;
-        text-align: center;
-        color: var(--black);
-        font-size: 3em;
-        font-weight: bold;
-        background-color: var(--white);
-        display: inline-block;
-        padding: 0.5em;
-        border-radius: var(--radius18);
-        b{
-            color: var(--red);
-        }
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--red);
+    border-radius: var(--radius18);
+    margin: 0.5em;
+    transition: var(--transition4);
+    &:hover {
+      transition: var(--transition4);
+      background-color: var(--black);
     }
-    .item{
-        padding: 1em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        background-color: var(--red);
-        border-radius: var(--radius18);
-        margin: 0.5em;
-        transition: var(--transition4);
-        &:hover{
-            transition: var(--transition4);
-            background-color: var(--black);
-        }
-        &:hover svg{
-            animation-name: bounce-7;
-                animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
-                animation-duration: 2s;
-                animation-iteration-count: infinite;
-        }
-        svg{
-            width: 2em;
-            height: 2em;
-            color: var(--white);
-          
-            
-        }
-        h2{
-            font-size: 1.2em;
-            color: var(--white);
-            padding-top: 1em;
-        }
-
+    &:hover svg {
+      animation-name: bounce-7;
+      animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
     }
+    svg {
+      width: 2em;
+      height: 2em;
+      color: var(--white);
+    }
+    h2 {
+      font-size: 1.2em;
+      color: var(--white);
+      padding-top: 1em;
+    }
+  }
 }
 
 @keyframes bounce-7 {
-    0%   { transform: scale(1,1)      translateY(0); }
-    10%  { transform: scale(1.1,.9)   translateY(0); }
-    30%  { transform: scale(.9,1.1)   translateY(-20px); }
-    50%  { transform: scale(1.05,.95) translateY(0); }
-    57%  { transform: scale(1,1)      translateY(-7px); }
-    64%  { transform: scale(1,1)      translateY(0); }
-    100% { transform: scale(1,1)      translateY(0); }
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-20px);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 1.5em;
+    }
+    .item {
+      padding: 0.5em;
+      svg {
+        width: 1.2em;
+        height: 1.2em;
+      }
+      h2 {
+        font-size: 1em;
+        padding-top: 0.4em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 80%;
+        text-align: center;
+        white-space: nowrap;
+      }
+    }
+  }
+  .divider {
+    display: none;
+  }
 }

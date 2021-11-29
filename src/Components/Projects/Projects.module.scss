@@ -42,3 +42,25 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    .main{
+        padding: 2em;
+        h1{
+            font-size: 2em;
+        }
+        .projImg{
+            display: none;
+        }
+        .item{
+           
+           img{
+               max-width: 100%;
+               height: 200px;
+           }
+           .center{
+            transform: scale(1);
+           }
+        }
+    }
+}

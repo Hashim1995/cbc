@@ -29,22 +29,22 @@ const Project = () => {
           <Image.PreviewGroup>
             <Image
               width={"100%"}
-              height={700}
+              className={Style.preImg}
               style={{ objectFit: "contain" }}
               src={previewImg}
             />
-            {imgList.map((img, i) => (
-              <Row>
-                <Col md={8} xs={12} lg={6}>
+            <Row>
+              {imgList.map((img, i) => (
+                <Col xs={12} md={8}>
                   <Image
-                    width={200}
+                    width={"100%"}
                     key={i}
                     preview={{ visible: true }}
                     src={img}
                   />
                 </Col>
-              </Row>
-            ))}
+              ))}
+            </Row>
           </Image.PreviewGroup>
         </div>
         <Descriptions

@@ -12,10 +12,10 @@ const Services = () => {
           <h1>
             OUR <b>SERVICES</b>
           </h1>
-          <Divider />
+          <Divider className={Style.divider} />
           <Row>
             {carouselItems.map((item, index) => (
-              <Col key={index} xs={24} sm={12} lg={8} xl={6}>
+              <Col key={index} xs={12} sm={12} lg={8} xl={6}>
                 <Link to={`/service/${item.title}`}>
                   <div className={Style.item}>
                     {item.icon}

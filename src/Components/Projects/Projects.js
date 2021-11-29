@@ -17,6 +17,24 @@ const Projects = () => {
     speed: 500,
     rows: 3,
     slidesPerRow: 2,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesPerRow: 1,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className={Style.main}>
@@ -24,7 +42,7 @@ const Projects = () => {
         OUR <b>PROJECTS</b>
       </h1>
       <Row>
-        <Col xl={24} xxl={10}>
+        <Col xs={24} xl={24} xxl={10}>
           <img src={projecImg} className={Style.projImg} alt="" />
         </Col>
         <Col xl={24} xxl={14}>

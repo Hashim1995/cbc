@@ -53,3 +53,25 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 2em 0;
+    .wrap {
+      .nav {
+        padding-left: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        li {
+          margin: 0.5em;
+        }
+      }
+      .social {
+        padding-left: 0;
+      }
+    }
+  }
+  
+}

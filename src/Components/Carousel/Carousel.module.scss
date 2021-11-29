@@ -47,3 +47,33 @@
         }
     }
 }
+
+@media screen and (max-width: 1350px){
+    .title{
+        font-size: 2em !important;
+    }
+    .description{
+        font-size: 1.5em !important;
+        padding: 2em 10em !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        top: 22% !important;
+        button{
+            display: none;
+        }
+    }
+    .CarouselImg{
+        height: 50vh;
+    }
+    .title{
+        font-size: 2em !important;
+    }
+    .description{
+        margin-top: 3em;
+        font-size: 1.1em !important;
+        padding: 0 3em !important;
+        text-align: center;
+    }
+}

@@ -1,7 +1,6 @@
 import Style from "./Projects.module.scss";
 import Row from "antd/lib/row";
 import Col from "antd/lib/col";
-import projecImg from "../../Assets/Img/proj.jpg";
 import Slider from "react-slick";
 import projectList from "../../Assets/Img/projectList";
 import { Link } from "react-router-dom";

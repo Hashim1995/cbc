@@ -36,8 +36,8 @@ const Partners = () => {
           <div className={Style.PartnersImgWrap}>
             <img
               className={Style.PartnersImg}
-              layout="fill"
-              objectFit="contain"
+              style={{ objectFit: "contain" }}
+              alt=""
               src={p1}
             />
           </div>
@@ -46,8 +46,8 @@ const Partners = () => {
           <div className={Style.PartnersImgWrap}>
             <img
               className={Style.PartnersImg}
-              layout="fill"
-              objectFit="contain"
+              style={{ objectFit: "contain" }}
+              alt=""
               src={p2}
             />
           </div>
@@ -57,8 +57,8 @@ const Partners = () => {
           <div className={Style.PartnersImgWrap}>
             <img
               className={Style.PartnersImg}
-              layout="fill"
-              objectFit="contain"
+              style={{ objectFit: "contain" }}
+              alt=""
               src={p3}
             />
           </div>
@@ -68,8 +68,8 @@ const Partners = () => {
           <div className={Style.PartnersImgWrap}>
             <img
               className={Style.PartnersImg}
-              layout="fill"
-              objectFit="contain"
+              style={{ objectFit: "contain" }}
+              alt=""
               src={p4}
             />
           </div>
@@ -78,8 +78,8 @@ const Partners = () => {
           <div className={Style.PartnersImgWrap}>
             <img
               className={Style.PartnersImg}
-              layout="fill"
-              objectFit="contain"
+              style={{ objectFit: "contain" }}
+              alt=""
               src={p5}
             />
           </div>
@@ -88,8 +88,8 @@ const Partners = () => {
           <div className={Style.PartnersImgWrap}>
             <img
               className={Style.PartnersImg}
-              layout="fill"
-              objectFit="contain"
+              style={{ objectFit: "contain" }}
+              alt=""
               src={p6}
             />
           </div>
@@ -98,8 +98,8 @@ const Partners = () => {
           <div className={Style.PartnersImgWrap}>
             <img
               className={Style.PartnersImg}
-              layout="fill"
-              objectFit="contain"
+              style={{ objectFit: "contain" }}
+              alt=""
               src={p7}
             />
           </div>
@@ -108,8 +108,8 @@ const Partners = () => {
           <div className={Style.PartnersImgWrap}>
             <img
               className={Style.PartnersImg}
-              layout="fill"
-              objectFit="contain"
+              style={{ objectFit: "contain" }}
+              alt=""
               src={p8}
             />
           </div>

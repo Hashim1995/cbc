@@ -14,7 +14,7 @@ const Footer = () => {
               <Link to="/">HOME</Link>
             </li>
             <li>
-              <Link to="/">ABOUT</Link>
+              <Link to="/About">ABOUT</Link>
             </li>
             <li>
               <Link to="/">SERVICES</Link>
@@ -23,10 +23,10 @@ const Footer = () => {
               <Link to="/">PROJECTS</Link>
             </li>
             <li>
-              <Link to="/">PARTNERS</Link>
+              <Link to="/Partner">PARTNERS</Link>
             </li>
             <li>
-              <Link to="/">CONTACT</Link>
+              <Link to="/About">CONTACT</Link>
             </li>
           </ul>
           <ul className={Style.social}>

@@ -20,6 +20,7 @@
     "react-visibility-sensor": "^5.1.1",
     "sass": "^1.43.5",
     "slick-carousel": "^1.8.1",
+    "swiper": "^7.3.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

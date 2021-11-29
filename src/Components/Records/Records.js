@@ -23,27 +23,33 @@ const Records = () => {
           <Row>
             <Col xs={24} md={12} xl={8}>
               <div className={Style.item}>
-                <Link to="/">OUR STORY</Link>
+                <Link to="/Story">OUR STORY</Link>
                 <p>
                   On the other hand, we denounce with righteous indignation and
                   dislike men who are so beguiled and demoralized by the charms
                   of pleasure of the moment, so blinded by desire by the charms
                   of pleasure of the moment, so blinded by desire
-                </p>
-                <button>Read More</button>
+                </p>{" "}
+                <Link className={Style.readMore} to="/Story">
+                  Read More
+                </Link>
                 <ManageSearchRoundedIcon />
               </div>
             </Col>
             <Col xs={24} md={12} xl={8}>
               <div className={Style.item}>
-                <Link to="/">ABOUT US</Link>
+                <Link to="/About">ABOUT US</Link>
                 <p>
                   On the other hand, we denounce with righteous indignation and
                   dislike men who are so beguiled and demoralized by the charms
                   of pleasure of the moment, so blinded by desire by the charms
                   of pleasure of the moment, so blinded by desire
                 </p>
-                <button>Read More</button>
+
+                <Link className={Style.readMore} to="/Story">
+                  Read More
+                </Link>
+
                 <GroupsOutlinedIcon />
               </div>
             </Col>
@@ -53,14 +59,16 @@ const Records = () => {
               xl={{ span: 8, offset: 0 }}
             >
               <div className={Style.item}>
-                <Link to="/">OUR CERTIFACATE</Link>
+                <Link to="/About">OUR CERTIFACATE</Link>
                 <p>
                   On the other hand, we denounce with righteous indignation and
                   dislike men who are so beguiled and demoralized by the charms
                   of pleasure of the moment, so blinded by desire by the charms
                   of pleasure of the moment, so blinded by desire
                 </p>
-                <button>Read More</button>
+                <Link className={Style.readMore} to="/About">
+                  Read More
+                </Link>
                 <CardMembershipOutlinedIcon />
               </div>
             </Col>

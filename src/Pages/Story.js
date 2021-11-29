@@ -1,13 +1,13 @@
 import React from "react";
-import AboutUs from "../Components/AboutUs/AboutUs";
+import OurStory from "../Components/OurStory/OurStory";
 import Stats from "../Components/Stats/Stats";
-const About = () => {
+const Story = () => {
   return (
     <div>
-      <AboutUs />
+      <OurStory />
       <Stats />
     </div>
   );
 };
 
-export default About;
+export default Story;

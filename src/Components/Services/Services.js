@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import Divider from "antd/lib/divider";
 const Services = () => {
   return (
-    <div className={Style.main}>
+    <div className={Style.main} id="service">
       <div className="container">
         <section className={Style.wrap}>
           <h1>

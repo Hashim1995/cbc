@@ -5,6 +5,7 @@ body {
   font-family: 'Quicksand', sans-serif !important;
   font-weight: 500;
   background-color: var(--light-gray) !important;
+  scroll-behavior: smooth;
 }
 :root {
   --letter-spacing-1: 1px;

@@ -18,8 +18,8 @@ const Diffirence = () => {
               <div className={Style.right}>
                 <h1>TOP RATED</h1>
                 <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled demoralized
+                  We have been rated "the best" by all our clients, in terms of
+                  all the array of services that we offer.
                 </p>
               </div>
             </div>
@@ -32,8 +32,8 @@ const Diffirence = () => {
               <div className={Style.right}>
                 <h1>LOW COST</h1>
                 <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled demoralized
+                  The best service in comparison with the money that is spent.
+                  We are highly competative with the costing of our services.
                 </p>
               </div>
             </div>
@@ -46,8 +46,8 @@ const Diffirence = () => {
               <div className={Style.right}>
                 <h1>QUALITY</h1>
                 <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled demoralized
+                  We provide best quality service, timely assistance to
+                  business. These are the skill set we value.
                 </p>
               </div>
             </div>

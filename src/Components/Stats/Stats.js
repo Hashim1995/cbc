@@ -1,6 +1,4 @@
 import Style from "./Stats.module.scss";
-import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
 import Row from "antd/lib/row";
 import Col from "antd/lib/col";
 import Divider from "antd/lib/divider";

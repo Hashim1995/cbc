@@ -3,7 +3,7 @@ import Row from "antd/lib/row";
 import Col from "antd/lib/col";
 import Slider from "react-slick";
 import projectList from "../../Assets/Img/projectList";
-import { Link } from "react-router-dom";
+
 const Projects = () => {
   const settings = {
     arrows: false,
@@ -51,18 +51,18 @@ const Projects = () => {
         <Col xl={24} xxl={24}>
           <Slider {...settings}>
             {projectList.map((project, index) => (
-              <Link key={index} to={`/project/${project.title}`}>
-                <div className={Style.item}>
-                  <img
-                    src={project.previewImg}
-                    alt=""
-                    title={project.desciption}
-                  />
-                  <div className={Style.center}>
-                    <h1>{project.title}</h1>
-                  </div>
+              // <Link key={index} to={`/project/${project.title}`}>
+              <div className={Style.item}>
+                <img
+                  src={project.previewImg}
+                  alt=""
+                  title={project.desciption}
+                />
+                <div className={Style.center}>
+                  <h1>{project.title}</h1>
                 </div>
-              </Link>
+              </div>
+              // </Link>
             ))}
           </Slider>
         </Col>

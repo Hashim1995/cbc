@@ -49,11 +49,11 @@ const Footer = () => {
               </Link>
             </li>
           </ul> */}
-          {/* <div className={Style.about}>
+          <div className={Style.about}>
             <h5>24a, 28 may street, Baku, Azerbaijan </h5>
             <a href="mailto: abc@example.com">abc@example.com</a>
             <a href="tel:555-666-7777">555-666-7777</a>
-          </div> */}
+          </div>
           <Divider style={{ borderColor: "grey" }} />
           <a
             className={Style.qscepters}

@@ -50,9 +50,18 @@ const Footer = () => {
             </li>
           </ul> */}
           <div className={Style.about}>
-            <h5>24a, 28 may street, Baku, Azerbaijan </h5>
-            <a href="mailto: abc@example.com">abc@example.com</a>
-            <a href="tel:555-666-7777">555-666-7777</a>
+            <h5>Salyan Highway 15, Garadag Region, Baku, Azerbaijan </h5>
+            <br />
+            <a href="mailto: info@weblydevelopments.com">
+              info@weblydevelopments.com
+            </a>
+            <br />
+            <a href="tel:+99450 2139238"> Mob: +99450 2139238</a>
+            <br />
+            <a href="tel:+99412 4471412">
+              {" "}
+              Telephone: +99412 4471412, 4471417, 4471494 (Fax)
+            </a>
           </div>
           <Divider style={{ borderColor: "grey" }} />
           <a

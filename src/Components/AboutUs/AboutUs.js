@@ -22,21 +22,19 @@ const AboutUs = () => {
           organization. Wembly ensures productive and safe environment for the
           organization's employees, customers and visitors.
         </p>
-        <div>
-          OUR CERTIFACATE:
+        <div className={Style.about}>
+          <h5>Salyan Highway 15, Garadag Region, Baku, Azerbaijan </h5>
           <br />
-          <p
-            style={{
-              display: "flex",
-              alignItems: "space-around",
-              justifyContent: "space-between",
-              flexDirection: "column",
-            }}
-          >
-            <span> * Pestcontrol</span>
-            <span>* Construction control</span>
-            <span> * Fire and Safety.</span>
-          </p>
+          <a href="mailto: info@weblydevelopments.com">
+            info@weblydevelopments.com
+          </a>
+          <br />
+          <a href="tel:+99450 2139238"> Mob: +99450 2139238</a>
+          <br />
+          <a href="tel:+99412 4471412">
+            {" "}
+            Telephone: +99412 4471412, 4471417, 4471494 (Fax)
+          </a>
         </div>
         {/* <div className={Style.about}>
           <h1>Contact Us</h1>

@@ -18,81 +18,21 @@ const Stats = () => {
           <Col sm={12} xs={24} lg={8}>
             <div id="stat" className={Style.item}>
               <DoneIcon />
-              <VisibilitySensor partialVisibility offset={{ bottom: 60 }}>
-                {({ isVisible }) => (
-                  <div>
-                    {isVisible ? (
-                      <CountUp
-                        className={Style.counter}
-                        start={0}
-                        end={100}
-                        duration={1.5}
-                      ></CountUp>
-                    ) : (
-                      <CountUp
-                        className={Style.counter}
-                        start={0}
-                        end={100}
-                        duration={1.5}
-                      ></CountUp>
-                    )}
-                  </div>
-                )}
-              </VisibilitySensor>
+              <h2 className={Style.counter}>100+</h2>
               <h3>Finished Projects</h3>
             </div>
           </Col>
           <Col sm={12} xs={24} lg={8}>
             <div id="stat" className={Style.item}>
               <PublishedWithChangesIcon />
-              <VisibilitySensor partialVisibility offset={{ bottom: 60 }}>
-                {({ isVisible }) => (
-                  <div>
-                    {isVisible ? (
-                      <CountUp
-                        className={Style.counter}
-                        start={0}
-                        end={20}
-                        duration={1.5}
-                      ></CountUp>
-                    ) : (
-                      <CountUp
-                        className={Style.counter}
-                        start={0}
-                        end={20}
-                        duration={1.5}
-                      ></CountUp>
-                    )}
-                  </div>
-                )}
-              </VisibilitySensor>
+              <h2 className={Style.counter}>20+</h2>
               <h3>Under construction projects</h3>
             </div>
           </Col>
           <Col sm={12} xs={24} lg={8}>
             <div id="stat" className={Style.item}>
               <ModelTrainingIcon />
-              <VisibilitySensor partialVisibility offset={{ bottom: 60 }}>
-                {({ isVisible }) => (
-                  <div>
-                    {isVisible ? (
-                      <CountUp
-                        className={Style.counter}
-                        start={0}
-                        end={100}
-                        duration={2}
-                      ></CountUp>
-                    ) : (
-                      <CountUp
-                        className={Style.counter}
-                        start={0}
-                        end={100}
-                        duration={2}
-                      ></CountUp>
-                    )}
-                  </div>
-                )}
-              </VisibilitySensor>
+              <h2 className={Style.counter}>100+</h2>
               <h3> Satisfied Clients</h3>
             </div>
           </Col>

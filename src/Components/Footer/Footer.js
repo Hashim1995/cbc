@@ -1,9 +1,9 @@
 import Style from "./Footer.module.scss";
 import { Link } from "react-router-dom";
 import Divider from "antd/lib/divider";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
 const Footer = () => {
   return (
     <div className={Style.main}>

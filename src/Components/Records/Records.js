@@ -15,9 +15,8 @@ const Records = () => {
               ABOUT <b>SIMPLY</b>
             </h1>
             <p>
-              On the other hand, we denounce with righteous indignation and
-              dislike men who are so beguiled and demoralized by the charms of
-              pleasure of the moment, so blinded by desire
+              Wembly is providing best facility management services to its
+              clients since past 4 decades.
             </p>
           </div>
           <Row>
@@ -25,10 +24,10 @@ const Records = () => {
               <div className={Style.item}>
                 <Link to="/Story">OUR STORY</Link>
                 <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment, so blinded by desire by the charms
-                  of pleasure of the moment, so blinded by desire
+                  Wembly started its venture into facility management service
+                  since 1980's. And we initially started with serving Hotels and
+                  Tourism sectors and from 2000 we expanded to serve commercial
+                  centers, Oil and Gas, Education and other sectors.
                 </p>{" "}
                 <Link className={Style.readMore} to="/Story">
                   Read More
@@ -40,10 +39,11 @@ const Records = () => {
               <div className={Style.item}>
                 <Link to="/About">ABOUT US</Link>
                 <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment, so blinded by desire by the charms
-                  of pleasure of the moment, so blinded by desire
+                  Wembly is in facility management that allows the businesses to
+                  focus on their core business which are the primary activity of
+                  the organization. Wembly ensures productive and safe
+                  environment for the organization's employees, customers and
+                  visitors.
                 </p>
 
                 <Link className={Style.readMore} to="/Story">
@@ -61,10 +61,12 @@ const Records = () => {
               <div className={Style.item}>
                 <Link to="/About">OUR CERTIFACATE</Link>
                 <p>
-                  On the other hand, we denounce with righteous indignation and
-                  dislike men who are so beguiled and demoralized by the charms
-                  of pleasure of the moment, so blinded by desire by the charms
-                  of pleasure of the moment, so blinded by desire
+                  * Pestcontrol
+                  <br />
+                  * Construction control
+                  <br />
+                  * Fire and Safety.
+                  <br />
                 </p>
                 <Link className={Style.readMore} to="/About">
                   Read More

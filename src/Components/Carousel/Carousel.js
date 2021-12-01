@@ -32,7 +32,7 @@ const Carousel = () => {
               <div className={`${Style.container} container`}>
                 <div className={Style.textWrap}>
                   <h1 className={Style.title}>{item.title}</h1>
-                  <h5 className={Style.description}>{item.description}</h5>
+                  {/* <h5 className={Style.description}>{item.description}</h5> */}
                   <a href="#service">FIND OUT MORE</a>
                 </div>
               </div>

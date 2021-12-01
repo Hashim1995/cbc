@@ -29,7 +29,7 @@ const Footer = () => {
               <Link to="/About">CONTACT</Link>
             </li>
           </ul>
-          <ul className={Style.social}>
+          {/* <ul className={Style.social}>
             <li>
               {" "}
               <Link to="/">
@@ -48,7 +48,7 @@ const Footer = () => {
                 <LinkedInIcon />
               </Link>
             </li>
-          </ul>
+          </ul> */}
           <div className={Style.about}>
             <h5>24a, 28 may street, Baku, Azerbaijan </h5>
             <a href="mailto: abc@example.com">abc@example.com</a>

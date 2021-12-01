@@ -25,14 +25,14 @@ const Stats = () => {
                       <CountUp
                         className={Style.counter}
                         start={0}
-                        end={80}
+                        end={100}
                         duration={1.5}
                       ></CountUp>
                     ) : (
                       <CountUp
                         className={Style.counter}
                         start={0}
-                        end={80}
+                        end={100}
                         duration={1.5}
                       ></CountUp>
                     )}
@@ -52,14 +52,14 @@ const Stats = () => {
                       <CountUp
                         className={Style.counter}
                         start={0}
-                        end={2}
+                        end={20}
                         duration={1.5}
                       ></CountUp>
                     ) : (
                       <CountUp
                         className={Style.counter}
                         start={0}
-                        end={2}
+                        end={20}
                         duration={1.5}
                       ></CountUp>
                     )}
@@ -79,21 +79,21 @@ const Stats = () => {
                       <CountUp
                         className={Style.counter}
                         start={0}
-                        end={15}
+                        end={100}
                         duration={2}
                       ></CountUp>
                     ) : (
                       <CountUp
                         className={Style.counter}
                         start={0}
-                        end={15}
+                        end={100}
                         duration={2}
                       ></CountUp>
                     )}
                   </div>
                 )}
               </VisibilitySensor>
-              <h3>Planned projects</h3>
+              <h3> Satisfied Clients</h3>
             </div>
           </Col>
         </Row>

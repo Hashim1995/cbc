@@ -5,6 +5,7 @@ import projectList from "../Assets/Img/projectList";
 import { Row, Col } from "antd";
 import { Descriptions, Badge } from "antd";
 const Project = () => {
+  document.body.scrollTop = 0;
   const { projectSlug } = useParams();
 
   const {

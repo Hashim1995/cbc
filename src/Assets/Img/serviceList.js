@@ -262,7 +262,7 @@ const carouselItems = [
     img2: quality2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Quality Control,",
+    title: "Quality Control",
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <FactCheckIcon />,
@@ -272,7 +272,7 @@ const carouselItems = [
     img2: inventory2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Inventory Control,",
+    title: "Inventory Control",
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <InventoryIcon />,

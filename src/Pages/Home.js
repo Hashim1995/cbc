@@ -7,6 +7,7 @@ import Projects from "../Components/Projects/Projects";
 import Stats from "../Components/Stats/Stats";
 import Partners from "../Components/Partners/Partners";
 const Home = () => {
+  document.body.scrollTop = 0;
   return (
     <div>
       <Carousel />

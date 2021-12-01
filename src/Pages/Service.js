@@ -4,6 +4,7 @@ import serviceList from "../Assets/Img/serviceList";
 import Style from "../Assets/Service.module.scss";
 import { Row, Col } from "antd";
 const Service = () => {
+  document.body.scrollTop = 0;
   const { serviceSlug } = useParams();
   const { img, img2, title, description2, description, icon } =
     serviceList.find((service) => service.title === serviceSlug);

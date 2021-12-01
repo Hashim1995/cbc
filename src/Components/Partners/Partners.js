@@ -7,7 +7,6 @@ import p4 from "../../Assets/Img/p4.png";
 import p5 from "../../Assets/Img/p5.png";
 import p6 from "../../Assets/Img/p6.png";
 import p7 from "../../Assets/Img/p7.png";
-import p8 from "../../Assets/Img/p8.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
@@ -101,16 +100,6 @@ const Partners = () => {
               style={{ objectFit: "contain" }}
               alt=""
               src={p7}
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={Style.PartnersImgWrap}>
-            <img
-              className={Style.PartnersImg}
-              style={{ objectFit: "contain" }}
-              alt=""
-              src={p8}
             />
           </div>
         </SwiperSlide>

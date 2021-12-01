@@ -8,11 +8,11 @@ import CardMembershipOutlinedIcon from "@mui/icons-material/CardMembershipOutlin
 const Records = () => {
   return (
     <div className={Style.main}>
-      <div className="container">
+      <div className="container" id="records">
         <div className={Style.wrap}>
           <div className={Style.title}>
             <h1>
-              ABOUT <b>SIMPLY</b>
+              ABOUT <b>WEMBLY</b>
             </h1>
             <p>
               Wembly is providing best facility management services to its
@@ -22,14 +22,14 @@ const Records = () => {
           <Row>
             <Col xs={24} md={12} xl={8}>
               <div className={Style.item}>
-                <Link to="/Story">OUR STORY</Link>
+                <Link to="/About">OUR STORY</Link>
                 <p>
                   Wembly started its venture into facility management service
                   since 1980's. And we initially started with serving Hotels and
                   Tourism sectors and from 2000 we expanded to serve commercial
                   centers, Oil and Gas, Education and other sectors.
                 </p>{" "}
-                <Link className={Style.readMore} to="/Story">
+                <Link className={Style.readMore} to="/About">
                   Read More
                 </Link>
                 <ManageSearchRoundedIcon />
@@ -46,7 +46,7 @@ const Records = () => {
                   visitors.
                 </p>
 
-                <Link className={Style.readMore} to="/Story">
+                <Link className={Style.readMore} to="/About">
                   Read More
                 </Link>
 
@@ -60,13 +60,17 @@ const Records = () => {
             >
               <div className={Style.item}>
                 <Link to="/About">OUR CERTIFACATE</Link>
-                <p>
-                  * Pestcontrol
-                  <br />
-                  * Construction control
-                  <br />
-                  * Fire and Safety.
-                  <br />
+                <p
+                  style={{
+                    display: "flex",
+                    alignItems: "space-around",
+                    justifyContent: "space-between",
+                    flexDirection: "column",
+                  }}
+                >
+                  <span> * Pestcontrol</span>
+                  <span>* Construction control</span>
+                  <span> * Fire and Safety.</span>
                 </p>
                 <Link className={Style.readMore} to="/About">
                   Read More

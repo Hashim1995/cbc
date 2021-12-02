@@ -52,8 +52,8 @@ const Footer = () => {
           <div className={Style.about}>
             <h5>Salyan Highway 15, Garadag Region, Baku, Azerbaijan </h5>
             <br />
-            <a href="mailto: info@weblydevelopments.com">
-              info@weblydevelopments.com
+            <a href="mailto: info@wemblydevelopments.com">
+              info@wemblydevelopments.com
             </a>
             <br />
             <a href="tel:+99450 2139238"> Mob: +99450 2139238</a>

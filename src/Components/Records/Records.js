@@ -12,10 +12,10 @@ const Records = () => {
         <div className={Style.wrap}>
           <div className={Style.title}>
             <h1>
-              ABOUT <b>WEMBLY</b>
+              ABOUT <b>WEMBLEY </b>
             </h1>
             <p>
-              Wembly is providing best facility management services to its
+              Wembley is providing best facility management services to its
               clients since past 4 decades.
             </p>
           </div>
@@ -24,7 +24,7 @@ const Records = () => {
               <div className={Style.item}>
                 <Link to="/About">OUR STORY</Link>
                 <p>
-                  Wembly started its venture into facility management service
+                  Wembley started its venture into facility management service
                   since 1980's. And we initially started with serving Hotels and
                   Tourism sectors and from 2000 we expanded to serve commercial
                   centers, Oil and Gas, Education and other sectors.
@@ -39,9 +39,9 @@ const Records = () => {
               <div className={Style.item}>
                 <Link to="/About">ABOUT US</Link>
                 <p>
-                  Wembly is in facility management that allows the businesses to
-                  focus on their core business which are the primary activity of
-                  the organization. Wembly ensures productive and safe
+                  Wembley is in facility management that allows the businesses
+                  to focus on their core business which are the primary activity
+                  of the organization. Wembley ensures productive and safe
                   environment for the organization's employees, customers and
                   visitors.
                 </p>

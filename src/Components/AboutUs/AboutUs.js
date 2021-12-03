@@ -7,26 +7,26 @@ const AboutUs = () => {
         <img src={aboutusImg} alt="" />
         <h1>Wembley company</h1>
         <p>
-          Wembly started its venture into facility management service since
+          Wembley started its venture into facility management service since
           1980's. And we initially started with serving Hotels and Tourism
           sectors and from 2000 we expanded to serve commercial centers, Oil and
           Gas, Education and other sectors.
         </p>
         <p>
-          Wembly is providing best facility management services to its clients
+          Wembley is providing best facility management services to its clients
           since past 4 decades.
         </p>
         <p>
-          Wembly is in facility management that allows the businesses to focus
+          Wembley is in facility management that allows the businesses to focus
           on their core business which are the primary activity of the
-          organization. Wembly ensures productive and safe environment for the
+          organization. Wembley ensures productive and safe environment for the
           organization's employees, customers and visitors.
         </p>
         <div className={Style.about}>
           <h5>Salyan Highway 15, Garadag Region, Baku, Azerbaijan </h5>
           <br />
-          <a href="mailto: info@wemblydevelopments.com">
-            info@wemblydevelopments.com
+          <a href="mailto: info@wembleydevelopments.com">
+            info@wembleydevelopments.com
           </a>
           <br />
           <a href="tel:+99450 2139238"> Mob: +99450 2139238</a>

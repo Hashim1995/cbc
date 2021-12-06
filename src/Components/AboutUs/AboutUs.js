@@ -5,22 +5,23 @@ const AboutUs = () => {
     <div className="container">
       <div className={Style.wrap}>
         <img src={aboutusImg} alt="" />
-        <h1>Wembley company</h1>
+        <h1>Wembley developments</h1>
         <p>
-          Wembley started its venture into facility management service since
-          1980's. And we initially started with serving Hotels and Tourism
-          sectors and from 2000 we expanded to serve commercial centers, Oil and
-          Gas, Education and other sectors.
+          Wembley developments started its venture into facility management
+          service since 1980's. And we initially started with serving Hotels and
+          Tourism sectors and from 2000 we expanded to serve commercial centers,
+          Oil and Gas, Education and other sectors.
         </p>
         <p>
-          Wembley is providing best facility management services to its clients
-          since past 4 decades.
+          Wembley developments is providing best facility management services to
+          its clients since past 4 decades.
         </p>
         <p>
-          Wembley is in facility management that allows the businesses to focus
-          on their core business which are the primary activity of the
-          organization. Wembley ensures productive and safe environment for the
-          organization's employees, customers and visitors.
+          Wembley developments is in facility management that allows the
+          businesses to focus on their core business which are the primary
+          activity of the organization. Wembley developments ensures productive
+          and safe environment for the organization's employees, customers and
+          visitors.
         </p>
         <div className={Style.about}>
           <h5>Salyan Highway 15, Garadag Region, Baku, Azerbaijan </h5>

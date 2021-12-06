@@ -1,12 +1,12 @@
 import Style from "./Header.module.scss";
-import logo from "../../Assets/Img/logo.webp";
+import logo from "../../Assets/Img/logo.png";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="container">
       <nav className={Style.nav}>
         <Link to="/">
-          <img src={logo} alt="" />
+          <img className={Style.logo} src={logo} alt="" />
         </Link>
         <div>
           <Link to="/">HOME</Link>

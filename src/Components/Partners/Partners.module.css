@@ -1,11 +1,14 @@
 .PartnersWrap{
     min-height: 20vh;
-    padding: 5em 0em;
+    padding: 2em 0em;
     background-color: var(--white);
     margin-bottom: 2em;
 }
 .PartnersImgWrap{
     position: relative;
+    height: 120px;
+}
+.PartnersImg{
     height: 100px;
 }
 

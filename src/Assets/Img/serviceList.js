@@ -63,10 +63,16 @@ import PowerIcon from "@mui/icons-material/Power";
 import DeleteIcon from "@mui/icons-material/Delete";
 import FactCheckIcon from "@mui/icons-material/FactCheck";
 import InventoryIcon from "@mui/icons-material/Inventory";
-
+import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
+import WarehouseIcon from "@mui/icons-material/Warehouse";
+import AirportShuttleIcon from "@mui/icons-material/AirportShuttle";
+import PlumbingIcon from "@mui/icons-material/Plumbing";
+import ApartmentIcon from "@mui/icons-material/Apartment";
+import HolidayVillageIcon from "@mui/icons-material/HolidayVillage";
+import BusinessIcon from "@mui/icons-material/Business";
 const carouselItems = [
   {
-    img: gardening,
+    img: "https://images.pexels.com/photos/7728651/pexels-photo-7728651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     img2: gardening2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -76,7 +82,7 @@ const carouselItems = [
     icon: <YardOutlinedIcon />,
   },
   {
-    img: plumbing,
+    img: "https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     img2: plumbing2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -87,7 +93,7 @@ const carouselItems = [
   },
 
   {
-    img: electric,
+    img: "https://images.pexels.com/photos/8005368/pexels-photo-8005368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     img2: electric2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -97,17 +103,17 @@ const carouselItems = [
     icon: <FlashOnOutlinedIcon />,
   },
   {
-    img: carpet,
+    img: "https://icleaninglimitedhome.files.wordpress.com/2020/04/beaa4-office_carpet_cleaning_1582285071_prev.jpg",
     img2: carpet2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Carpet",
+    title: "Interior works",
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <CleaningServicesOutlinedIcon />,
   },
   {
-    img: hvac,
+    img: "https://d33wubrfki0l68.cloudfront.net/a875f1328070517eb42c3e377cea3459241bdd3b/18717/en-us/assets/images/blog/cost-guide/hvac-repair-full.jpg",
     img2: hvac2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -117,7 +123,17 @@ const carouselItems = [
     icon: <AirIcon />,
   },
   {
-    img: ceiling,
+    img: "https://insights.workwave.com/wp-content/uploads/2020/05/moping-floor-and-cleaning-railing-picture-id944633842.jpg",
+    img2: carpet2,
+    description2:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    title: "House Keeping & Cleaning services",
+    description:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    icon: <CleaningServicesOutlinedIcon />,
+  },
+  {
+    img: "https://lirp.cdn-website.com/fe1fc9be/dms3rep/multi/opt/Gilbert+Drywall+Repair+-+Ceiling+Repair+2-938w.jpg",
     img2: ceiling2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -127,7 +143,7 @@ const carouselItems = [
     icon: <ConstructionOutlinedIcon />,
   },
   {
-    img: curtain,
+    img: "https://cdn.fantasticservices.com/wp-content/uploads/2016/11/Curtain-cleaning-technician.png",
     img2: curtain2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -137,27 +153,27 @@ const carouselItems = [
     icon: <WindowOutlinedIcon />,
   },
   {
-    img: fire,
+    img: "https://volenesolutions.com/images/fire-safty.jpg",
     img2: fire2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Fire",
+    title: "Fire and Safety Management",
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <LocalFireDepartmentOutlinedIcon />,
   },
   {
-    img: flooring,
+    img: "https://mydecorative.com/wp-content/uploads/2018/11/flooring-professional.jpg",
     img2: flooring2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Flooring",
+    title: "Civil Work",
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <HouseboatOutlinedIcon />,
   },
   {
-    img: mechanic,
+    img: "https://media-exp1.licdn.com/dms/image/C4E1BAQGudwp5UHhoSQ/company-background_10000/0/1560352066991?e=2159024400&v=beta&t=i6xq6y_v5f5Zf5q9b_qxcVbO3COE5pOJiB1pHPb0vic",
     img2: mechanic2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -167,7 +183,7 @@ const carouselItems = [
     icon: <SettingsOutlinedIcon />,
   },
   {
-    img: pest,
+    img: "https://scvrepair.com/wp-content/uploads/pest-control-specialist-at-work-in-home.jpeg",
     img2: pest2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -177,28 +193,28 @@ const carouselItems = [
     icon: <PestControlOutlinedIcon />,
   },
   {
-    img: roof,
+    img: "https://www.stepbystephouse.com/wp-content/uploads/2020/01/Roof-Contractor-201809-001.jpg",
     img2: roof2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Roof",
+    title: "Roofing",
 
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <RoofingOutlinedIcon />,
   },
   {
-    img: water,
+    img: "https://www.industries.veolia.com/sites/g/files/dvc2561/files/styles/carousel/public/image/2016/11/VIGS-Website-Energy-1_0.jpg?h=f5bdb279&itok=WLctucxH",
     img2: water2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Water",
+    title: "Utilities Management",
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <FilterAltOutlinedIcon />,
   },
   {
-    img: lift,
+    img: "https://localibs.co.uk/wp-content/uploads/2019/12/3-541x360.jpg",
     img2: lift2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -208,7 +224,7 @@ const carouselItems = [
     icon: <ElevatorIcon />,
   },
   {
-    img: camera,
+    img: "https://professional-electrician.com/wp-content/uploads/2020/01/Increase-in-tester-use-by-CCTV-installers-reports-IDEAL-Networks-c.jpg",
     img2: camera2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -218,7 +234,7 @@ const carouselItems = [
     icon: <CameraOutdoorIcon />,
   },
   {
-    img: gate,
+    img: "https://apollo-doors.co.uk/wp-content/uploads/2021/03/shutterstock_178018553.jpg",
     img2: gate2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -228,7 +244,7 @@ const carouselItems = [
     icon: <FenceIcon />,
   },
   {
-    img: parking,
+    img: "https://stonewallsecurity.net/wp-content/uploads/2019/11/Parking_HERO.jpg",
     img2: parking2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -238,7 +254,7 @@ const carouselItems = [
     icon: <LocalParkingIcon />,
   },
   {
-    img: power,
+    img: "https://powercontrol.co.uk/wp-content/uploads/revslider/homepage/power-home-banner2.jpg",
     img2: power2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -248,17 +264,7 @@ const carouselItems = [
     icon: <PowerIcon />,
   },
   {
-    img: waste,
-    img2: waste2,
-    description2:
-      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Waste Management",
-    description:
-      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    icon: <DeleteIcon />,
-  },
-  {
-    img: quality,
+    img: "https://qualityinspection.org/wp-content/uploads/2009/12/shutterstock1050266033.jpg",
     img2: quality2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
@@ -268,14 +274,84 @@ const carouselItems = [
     icon: <FactCheckIcon />,
   },
   {
-    img: inventory,
+    img: "https://lifetime.co.ke/wp-content/uploads/2020/07/84709ff1-862d-.jpg",
     img2: inventory2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Inventory Control",
+    title: "General supplies",
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <InventoryIcon />,
+  },
+  {
+    img: "https://down-to-earth-equipment-rentals.com/DownToEarthScottTownshipPA/images/equipment-rentals.jpg?v=2.0",
+    img2: null,
+    description2:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    title: "Equipment Rental",
+    description:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    icon: <HomeRepairServiceIcon />,
+  },
+  {
+    img: "https://magenest.com/wp-content/uploads/2021/06/Public-warehouses.jpg",
+    img2: null,
+    description2:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    title: "Warehousing",
+    description:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    icon: <WarehouseIcon />,
+  },
+  {
+    img: "https://www.mantruckandbus.com/fileadmin/_processed_/a/a/csm_MAN_18_SocialMedia_1200x628px_homepage_01_819f46e901.jpg",
+    img2: null,
+    description2:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    title: "Transportation and rental services",
+    description:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    icon: <AirportShuttleIcon />,
+  },
+  {
+    img: "https://www.q2als.com/wp-content/uploads/2019/07/Floor-new-Q2.png",
+    img2: null,
+    description2:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    title: "Oil field supplies",
+    description:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    icon: <PlumbingIcon />,
+  },
+  {
+    img: "https://acssmartbuildings.com/wp-content/uploads/2017/07/bigstock-engineering-automation-buildin-39420793.jpg",
+    img2: null,
+    description2:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    title: "Building Management Services",
+    description:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    icon: <ApartmentIcon />,
+  },
+  {
+    img: "https://karmod.eu/blog/wp-content/uploads/2013/04/Oil-Field-Workforce-Housing-2.png",
+    img2: null,
+    description2:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    title: "Camp Management",
+    description:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    icon: <HolidayVillageIcon />,
+  },
+  {
+    img: "https://www.ekathimerini.com/wp-content/uploads/2020/05/office_web-1280x720.jpg",
+    img2: null,
+    description2:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    title: "Building and Office Rental Service",
+    description:
+      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
+    icon: <BusinessIcon />,
   },
 ];
 

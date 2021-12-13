@@ -1,12 +1,10 @@
 import { React, useEffect, useState } from "react";
 import Style from "./Partners.module.css";
-import p1 from "../../Assets/Img/p1.png";
-import p2 from "../../Assets/Img/p2.png";
+import p1 from "../../Assets/Img/p1.jpeg";
+import p2 from "../../Assets/Img/p2.jpeg";
 import p3 from "../../Assets/Img/p3.png";
 import p4 from "../../Assets/Img/p4.png";
 import p5 from "../../Assets/Img/p5.png";
-import p6 from "../../Assets/Img/p6.png";
-import p7 from "../../Assets/Img/p7.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
@@ -80,26 +78,6 @@ const Partners = () => {
               style={{ objectFit: "contain" }}
               alt=""
               src={p5}
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={Style.PartnersImgWrap}>
-            <img
-              className={Style.PartnersImg}
-              style={{ objectFit: "contain" }}
-              alt=""
-              src={p6}
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={Style.PartnersImgWrap}>
-            <img
-              className={Style.PartnersImg}
-              style={{ objectFit: "contain" }}
-              alt=""
-              src={p7}
             />
           </div>
         </SwiperSlide>

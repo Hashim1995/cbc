@@ -60,9 +60,14 @@
       color: var(--white);
     }
     h2 {
-      font-size: 1.2em;
+      font-size: 1.1em;
       color: var(--white);
       padding-top: 1em;
+      text-align: center;
+      text-overflow: ellipsis;
+      overflow: hidden; 
+      width: 90%;  
+      white-space: nowrap;
     }
   }
 }

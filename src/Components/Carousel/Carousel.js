@@ -1,6 +1,6 @@
 import { Carousel as CarouselAnt } from "antd";
 import Style from "./Carousel.module.scss";
-import serviceList from "../../Assets/Img/serviceList";
+import { carouselItems } from "../../Assets/Img/serviceList";
 const Carousel = () => {
   const SampleNextArrow = (props) => {
     const { className, style, onClick } = props;
@@ -25,7 +25,7 @@ const Carousel = () => {
         arrows
         {...settings}
       >
-        {serviceList.map((item, index) => {
+        {carouselItems.map((item, index) => {
           return (
             <div key={index}>
               <img className={Style.CarouselImg} src={item.img} alt="" />

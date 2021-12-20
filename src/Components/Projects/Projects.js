@@ -38,6 +38,7 @@ const Projects = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          slidesPerRow: 1,
         },
       },
     ],
@@ -60,6 +61,7 @@ const Projects = () => {
                 />
                 <div className={Style.center}>
                   <h1>{project.title}</h1>
+                  <h6>{project.desciption}</h6>
                 </div>
               </div>
               // </Link>

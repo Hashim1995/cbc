@@ -32,11 +32,17 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
             position: absolute;
             inset: 0 0 0 0;
             h1{
                 color: var(--white);
                 font-size: 1.5em;
+                text-align: center;
+            }
+            h6{
+                color: var(--white);
+                font-size: 1em;
                 text-align: center;
             }
         }
@@ -60,6 +66,14 @@
            }
            .center{
             transform: scale(1);
+            h1{
+                font-size: 1.3em;
+            }
+            h6{
+                color: var(--white);
+                font-size: 1em;
+                text-align: center;
+            }
            }
         }
     }

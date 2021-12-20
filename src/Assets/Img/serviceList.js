@@ -1,25 +1,3 @@
-import gardening from "./serviceImages/gardening.jpg";
-import plumbing from "./serviceImages/plumbing.jpg";
-import electric from "./serviceImages/electric.jpg";
-import carpet from "./serviceImages/carpet.jpg";
-import hvac from "./serviceImages/hvac.jpeg";
-import ceiling from "./serviceImages/ceiling.jpg";
-import curtain from "./serviceImages/curtain.jpg";
-import fire from "./serviceImages/fire.jpg";
-import flooring from "./serviceImages/flooring.jpg";
-import mechanic from "./serviceImages/mechanic.jpg";
-import pest from "./serviceImages/pest.jpg";
-import roof from "./serviceImages/roof.jpg";
-import water from "./serviceImages/water.jpg";
-import lift from "./serviceImages/lift.jpeg";
-import camera from "./serviceImages/camera.jpeg";
-import gate from "./serviceImages/gate.jpeg";
-import parking from "./serviceImages/parking.jpeg";
-import power from "./serviceImages/power.jpeg";
-import waste from "./serviceImages/waste.jpeg";
-import quality from "./serviceImages/quality.jpeg";
-import inventory from "./serviceImages/inventory.jpeg";
-
 import gardening2 from "./serviceImages/gardening2.jpeg";
 import plumbing2 from "./serviceImages/plumbing2.jpeg";
 import electric2 from "./serviceImages/electric2.jpeg";
@@ -31,17 +9,15 @@ import fire2 from "./serviceImages/fire2.jpeg";
 import flooring2 from "./serviceImages/flooring2.jpeg";
 import mechanic2 from "./serviceImages/mechanic2.jpeg";
 import pest2 from "./serviceImages/pest2.jpeg";
-import roof2 from "./serviceImages/roof2.jpeg";
 import water2 from "./serviceImages/water2.jpeg";
 import lift2 from "./serviceImages/lift2.jpeg";
-import camera2 from "./serviceImages/camera2.jpeg";
 import gate2 from "./serviceImages/gate2.jpeg";
-import parking2 from "./serviceImages/parking2.jpeg";
 import power2 from "./serviceImages/power2.jpeg";
-import waste2 from "./serviceImages/waste2.jpeg";
 import quality2 from "./serviceImages/quality2.jpeg";
 import inventory2 from "./serviceImages/inventory2.jpeg";
-
+import car1 from "./serviceImages/car1.jpeg";
+import car2 from "./serviceImages/car2.jpeg";
+import car3 from "./serviceImages/car3.jpeg";
 import YardOutlinedIcon from "@mui/icons-material/YardOutlined";
 import PlumbingOutlinedIcon from "@mui/icons-material/PlumbingOutlined";
 import FlashOnOutlinedIcon from "@mui/icons-material/FlashOnOutlined";
@@ -52,15 +28,14 @@ import HouseboatOutlinedIcon from "@mui/icons-material/HouseboatOutlined";
 import LocalFireDepartmentOutlinedIcon from "@mui/icons-material/LocalFireDepartmentOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import PestControlOutlinedIcon from "@mui/icons-material/PestControlOutlined";
-import RoofingOutlinedIcon from "@mui/icons-material/RoofingOutlined";
 import FilterAltOutlinedIcon from "@mui/icons-material/FilterAltOutlined";
 import ElevatorIcon from "@mui/icons-material/Elevator";
 import AirIcon from "@mui/icons-material/Air";
-import CameraOutdoorIcon from "@mui/icons-material/CameraOutdoor";
+
 import FenceIcon from "@mui/icons-material/Fence";
-import LocalParkingIcon from "@mui/icons-material/LocalParking";
+
 import PowerIcon from "@mui/icons-material/Power";
-import DeleteIcon from "@mui/icons-material/Delete";
+
 import FactCheckIcon from "@mui/icons-material/FactCheck";
 import InventoryIcon from "@mui/icons-material/Inventory";
 import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
@@ -70,7 +45,8 @@ import PlumbingIcon from "@mui/icons-material/Plumbing";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import HolidayVillageIcon from "@mui/icons-material/HolidayVillage";
 import BusinessIcon from "@mui/icons-material/Business";
-const carouselItems = [
+
+const serviceItems = [
   {
     img: "https://images.pexels.com/photos/7728651/pexels-photo-7728651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     img2: gardening2,
@@ -137,7 +113,7 @@ const carouselItems = [
     img2: ceiling2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Ceiling",
+    title: "Ceiling, Flooring and Roofing",
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <ConstructionOutlinedIcon />,
@@ -187,22 +163,12 @@ const carouselItems = [
     img2: pest2,
     description2:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Pest",
+    title: "Integrated Pest Management Services",
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <PestControlOutlinedIcon />,
   },
-  {
-    img: "https://www.stepbystephouse.com/wp-content/uploads/2020/01/Roof-Contractor-201809-001.jpg",
-    img2: roof2,
-    description2:
-      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Roofing",
 
-    description:
-      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    icon: <RoofingOutlinedIcon />,
-  },
   {
     img: "https://www.industries.veolia.com/sites/g/files/dvc2561/files/styles/carousel/public/image/2016/11/VIGS-Website-Energy-1_0.jpg?h=f5bdb279&itok=WLctucxH",
     img2: water2,
@@ -224,16 +190,6 @@ const carouselItems = [
     icon: <ElevatorIcon />,
   },
   {
-    img: "https://professional-electrician.com/wp-content/uploads/2020/01/Increase-in-tester-use-by-CCTV-installers-reports-IDEAL-Networks-c.jpg",
-    img2: camera2,
-    description2:
-      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "CCTV",
-    description:
-      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    icon: <CameraOutdoorIcon />,
-  },
-  {
     img: "https://apollo-doors.co.uk/wp-content/uploads/2021/03/shutterstock_178018553.jpg",
     img2: gate2,
     description2:
@@ -242,16 +198,6 @@ const carouselItems = [
     description:
       "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
     icon: <FenceIcon />,
-  },
-  {
-    img: "https://stonewallsecurity.net/wp-content/uploads/2019/11/Parking_HERO.jpg",
-    img2: parking2,
-    description2:
-      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    title: "Parking Management",
-    description:
-      "Lorem ipsum melt delor solar ipsum geru loha ispu doler arial senteu claj ajfu ameno gademo",
-    icon: <LocalParkingIcon />,
   },
   {
     img: "https://powercontrol.co.uk/wp-content/uploads/revslider/homepage/power-home-banner2.jpg",
@@ -355,4 +301,22 @@ const carouselItems = [
   },
 ];
 
-export default carouselItems;
+const carouselItems = [
+  {
+    id: 1,
+    img: car1,
+    title: "Your Reliable Partner for Facility Management",
+  },
+  {
+    id: 2,
+    img: car2,
+    title: "Quality Transportation Services and Rentals",
+  },
+  {
+    id: 3,
+    img: car3,
+    title: "Integrated Pest Management Services",
+  },
+];
+export { carouselItems };
+export default serviceItems;
